@@ -27,5 +27,6 @@ public class Common_Test {
                 Integer.toBinaryString(TIDYING),
                 Integer.toBinaryString(TERMINATED));
 
+        System.out.println(Integer.MAX_VALUE);
     }
 }
