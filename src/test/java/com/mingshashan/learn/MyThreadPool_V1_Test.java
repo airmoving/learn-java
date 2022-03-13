@@ -1,7 +1,7 @@
 package com.mingshashan.learn;
 
-import com.mingshashan.learn.juc.MyExecutorService;
-import com.mingshashan.learn.juc.MyThreadPool_V1;
+import com.mingshashan.learn.threadpool.MyExecutorService;
+import com.mingshashan.learn.threadpool.MyThreadPool_V1;
 import org.junit.Test;
 
 public class MyThreadPool_V1_Test {

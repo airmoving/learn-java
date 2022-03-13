@@ -1,6 +1,6 @@
 package com.mingshashan.learn;
 
-import com.mingshashan.learn.juc.SerialExecutor;
+import com.mingshashan.learn.threadpool.SerialExecutor;
 import org.junit.Before;
 import org.junit.Test;
 
