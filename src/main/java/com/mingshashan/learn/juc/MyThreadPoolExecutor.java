@@ -11,7 +11,7 @@ public class MyThreadPoolExecutor extends AbstractExecutorService {
     private volatile AtomicInteger threadCount = new AtomicInteger();
     private volatile AtomicInteger state = new AtomicInteger(1);
     private volatile Lock lock = new ReentrantLock();
-
+//    Condition
     private static int RUNNING = 0b0000001;
     private static int SHUTDOWN = 0b0000010;
     private static int STOP = 0b0000100;
